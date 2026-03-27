@@ -1,0 +1,178 @@
+.all{
+  display: flex;     
+  min-height: 100vh; 
+  font-size: 16px; 
+  font-style: italic;
+}
+.img img{
+
+border-radius: 50%;
+ width: 200px;
+ height: 200px;
+ object-fit: cover;
+ 
+}
+.img{
+
+  text-align: center;
+}
+
+.leftside{
+  width: 30%;        
+  background:wheat;
+  padding: 30px;
+  font-style: italic;
+
+ 
+}
+.education ul{
+  margin-top: 50px;
+}
+
+.main{
+  width: 70%;       
+  padding: 20px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education_title,
+.project_title{
+  background-color: wheat;
+  padding: 8px 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.education_title h2,
+.project_title h2{
+  margin: 0;
+} 
+.education_title{
+background-color: wheat;
+padding: 30px;
+margin-bottom: 15px;
+
+}
+
+
+
+
+.project_title{
+
+background-color: wheat;
+padding: 30px;
+margin-bottom: 20px;
+}
+
+.contact_list{
+  list-style: none;
+  text-align: left;
+}
+.contact_list img{
+width: 20px;
+margin-right: 8px;
+vertical-align: middle;
+}
+.project p{
+max-width: 700px;
+line-height: 1.7;
+
+}
+.contact a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.contact a:hover{
+  text-decoration: underline;
+}
+body p{
+  font-size: 16px;
+}
+body h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+body h1{
+text-align: center;
+
+
+}
+li{
+  font-size: 16px;
+}
+section{
+  margin-bottom: 25px;
+}
+.project h3{
+  margin-top: 60px;
+}
+
+.title{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+
+}
+
+
+.custom-navbar{
+  background-color: wheat;
+  padding: 12px 12px;
+}
+
+.custom-navbar .navbar-brand{
+  color: #4b3f2f;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.custom-navbar .nav-link{
+  color: #4b3f2f;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.custom-navbar .nav-link:hover{
+  color: #000;
+}
+
+.navbar-toggler{
+  border-color: #4b3f2f;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+li,
+a{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,
+h2,
+h3{
+  font-weight: bold;
+}
+
+.all{
+  font-size: large;
+  font-style: italic;
+}
+
+.leftside{
+  font-style: italic;
+}
+
+.title{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
